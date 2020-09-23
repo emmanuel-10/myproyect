@@ -1,0 +1,193 @@
+body {
+
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(36, 16, 36);
+}
+
+
+.contenedor {
+    border: 1px solid purple;
+    background: black;
+    margin: 0px 100px;
+}
+
+
+.barra {
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    border: purple 2px solid;
+    box-shadow: 1px 1px 25px 1px purple;
+    margin: 15px;
+    padding: 0px 15px;
+    height: 60px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+
+
+
+
+.slogan img {
+    height: 45px;
+       
+}
+
+
+
+.login {
+    border: 2px solid purple;
+    margin: 10px;
+    box-shadow: 1px 1px 25px 1px purple;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.login input {
+
+    color: purple;
+}
+
+.redes {
+   
+    margin: 25px;
+   
+}
+.redes i {
+    border-radius: 45px;
+    border: 1px solid purple;
+    padding: 15px;
+    font-size: 35px;
+    color: purple;
+    width: 65px;
+    text-align: center;
+    margin-right: 15px;
+   
+    
+}
+
+.titulo {
+    color: whitesmoke;
+    margin: 10px;
+    border: 2px solid purple;
+    box-shadow: 1px 1px 25px 1px purple;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin: 15px;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1000px) {
+    .barra {
+    
+        color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        border: purple 2px solid;
+        box-shadow: 1px 1px 25px 1px purple;
+        margin: 15px;
+        padding: 0px 15px;
+        height: 60px;
+        border-radius: 15px;
+        align-items: center;
+    }
+
+   
+  
+
+    .contenido {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+    .locales {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 15px;
+        gap: 30px;
+        
+    }
+
+}
+
+.locales {
+    
+    margin: 15px;
+    gap: 30px;
+    
+}
+
+
+
+.caja {
+    color: purple;
+    border: purple 2px solid;
+    box-shadow: 1px 1px 25px 1px rgb(228, 45, 228);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+   
+    
+}
+
+
+.foto img {
+  
+    height: 100%;
+    width: 100%;
+    
+   
+    
+}
+.info {
+    margin-top: -20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.detalles {
+    
+    text-align: center;
+   
+}
+
+.detalles p {
+    font-weight: bold;
+   
+
+}
+
+
+.texto h5{
+   
+    position: relative;
+}
+
+
+.caja:hover {
+    transform: scale(0.96);
+    transition: all 0.5s ease; 
+    border: 10px solid pink;
+}
+
+
